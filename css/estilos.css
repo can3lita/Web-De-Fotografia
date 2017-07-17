@@ -1,0 +1,232 @@
+*{
+  margin:0px;
+  padding:5px 30px;
+  box-sizing: border-box;
+  background-color: #02010a;
+}
+
+body{
+  font-family: 'Dancing Script', cursive;
+}
+
+.contenido{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+  .header{
+    border-radius: 10px 10px 0 0;
+    background: #5b7989;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+    .menu{
+      background: #5b7989;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+    }
+      .titulo{
+        background: #5b7989;
+        flex: 2 1 auto;
+        padding-left: 0px;
+        width: 100%;
+      }
+        h1{
+          background: #5b7989;
+          color:  #fff;
+          text-shadow: 2px 2px #02010a;
+          padding: 0;
+        }
+      .nav{
+        flex: 1 1 auto;
+        background: #5b7989;
+        text-align: right;
+        padding: 0;
+        display: flex;
+        
+      }
+        .active{
+          text-decoration: none;
+        }
+      .nav a {
+        color:  #fff;
+        background: #5b7989;
+        padding: 0 5px 0 5px;
+        
+      }
+      .nav a:hover {
+        
+      }
+
+  .imagen-central{
+      background: #82c3a6; 
+      padding: 15px 100px;
+  }
+  .imagen-central img{
+      width: 100%;
+      background: #82c3a6;
+      padding: 0;
+  }
+  .central-image{
+    -webkit-filter:drop-shadow(2px 2px 2px #02010a);
+    filter:drop-shadow(2px 2px 2px #02010a);
+  }
+  .padre-secundario{
+      background:  #d5c75f;
+      display: flex;
+
+  }
+    .imagen-secundaria{
+      padding: 15px 0px;
+      background:  #d5c75f;
+      display: flex;
+      flex-flow: column wrap;
+      flex:1 1 auto;
+    }
+    .imagen-secundaria img{
+      width: 100%;
+      background:  #d5c75f;
+      padding: 0;
+    }
+
+    .imagen-secundaria a{
+      text-align: center;
+      color: #000;
+      font-size: 15px;
+      background:  #d5c75f;
+    }
+
+
+    #left-image, #right-image {
+      background:  #d5c75f;
+    }
+    
+    #left-image img{
+      transition-duration: 1s;
+      -webkit-filter:drop-shadow(2px 2px 2px #02010a);
+      filter:drop-shadow(2px 2px 2px #02010a);
+    }
+    
+    #right-image img{
+      transition-duration: 1s;
+      -webkit-filter:drop-shadow(2px 2px 2px #02010a);
+      filter:drop-shadow(2px 2px 2px #02010a);
+    }
+
+    #left-image img:hover{
+      transform: rotate(10deg);
+      border: solid 2px black;
+      -webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+      filter:drop-shadow(2px 2px 2px #82c3a6);
+    }
+
+    #right-image img:hover{
+      transform: translate(20px, -5px);
+      border: solid 2px black;
+      -webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+      filter:drop-shadow(2px 2px 2px #82c3a6);
+    }
+
+  .footer{
+    background: #C6d5c5;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+  }
+    .col-pie{
+      background: #C6d5c5;
+      padding: 0px;
+
+    }
+    .titulo-pie{
+      background: #C6d5c5;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 0px;
+    }
+    .contenido-pie{
+      background: #C6d5c5;
+      padding: 0px;
+      display: flex;
+    }
+    .footer  ul{
+      background: #C6d5c5;
+      padding-left: 0px;
+    }
+    .footer  ul  li{
+      background: #C6d5c5;
+      list-style: none;
+      padding-left: 0px;
+
+    }
+
+    .footer a{
+      background: #C6d5c5;
+      text-decoration: none;
+      padding: 0px;
+      color: #000;
+    }
+    .fa{
+      background: #C6d5c5;
+      padding: 0 5px 0 0;
+    }
+    .underline {
+      text-decoration: underline;
+    }
+
+.galeria{
+  background: #d5c75f;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px 0 10px 0;
+}
+.imagen{
+  flex:1 1 30%;
+  background: #d5c75f;
+}
+.imagen img {
+  border: 1px solid #000;
+}
+#image1{
+  padding: 0;
+  width: 100%;
+  background: #d5c75f;
+  -webkit-filter: blur(10px); 
+  filter: blur(10px);
+}
+#image2{
+  padding: 0;
+  width: 100%;
+  background: #d5c75f;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+#image3{
+  padding: 0;
+  width: 100%;
+  background: #d5c75f;
+  -webkit-filter: sepia(90%); 
+  filter: sepia(90%);
+}
+#image4{
+  padding: 0;
+  background: #d5c75f;
+  width: 100%;
+  -webkit-filter: grayscale(100%); 
+}
+#image5{
+  padding: 0;
+  background: #d5c75f;
+  width: 100%;
+}
+#image6{
+  padding: 0;
+  background: #d5c75f;
+  width: 100%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
