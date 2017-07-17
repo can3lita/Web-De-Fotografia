@@ -230,3 +230,43 @@ body{
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
 }
+
+
+@media (max-width:899px){ /*Movil*/
+  .contenido{
+    margin: 0 auto;
+    max-width: 100%;
+    padding:0;
+  }
+  .imagen-central {
+      padding: 20px 60px;
+  }
+  .menu{
+    flex-direction: column;
+  }
+  .nav{
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+  }
+  .padre-secundario{
+    flex-direction: column;
+  }
+  .footer{
+    flex-direction: column;
+
+  }
+  .titulo {
+      text-align: center;
+  }
+  .galeria{
+    flex-direction: column;
+  }
+}
+
+@media (min-width:900px){ /*Desktop*/
+  .contenido{
+    margin: 0 auto;
+    max-width:900px;
+  }
+}
